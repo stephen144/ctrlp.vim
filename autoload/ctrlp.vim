@@ -206,7 +206,7 @@ let s:hlgrps = {
 	\ }
 
 " lname, sname of the basic(non-extension) modes
-let s:types = ['fil', 'buf', 'mru']
+let s:types = ['buf', 'fil', 'mru']
 if !exists('g:ctrlp_types')
 	let g:ctrlp_types = s:types
 el
